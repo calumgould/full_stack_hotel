@@ -20,4 +20,13 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+  .bookings-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 10% 5% 10%;
+    justify-content: center;
+  }
+
 </style>

@@ -1,6 +1,11 @@
 <template lang="html">
   <div id="app">
+    <div class="banner">
+      <h1>Hotel CodeClan</h1>
+    </div>
+
     <bookings-form/>
+    <h1 class="bookings">Bookings</h1>
     <bookings-list :bookings="bookings"/>
   </div>
 </template>
@@ -54,4 +59,22 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+  .banner h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 4em;
+    padding: 1em;
+    color: ghostwhite;
+  }
+
+  .bookings {
+    padding: 0.5em 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+  }
+
+  .banner {
+    background-color: #143D59;
+  }
+
 </style>
